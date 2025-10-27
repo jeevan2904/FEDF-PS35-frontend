@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:8000/api", // backend URL
+  baseURL: "https://fedf-ps35-backend-1.onrender.com/api", // backend URL
   withCredentials: false,
 });
 
